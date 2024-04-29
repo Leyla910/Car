@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* .wrapper {
+    width: 1200px;
+    height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.road {
+    position: relative;
+    width: 0px;
+    height: 20px;
+    margin-left: 0;
+    background-color: black;
+    background: linear-gradient(270deg, rgb(199, 40, 167) 0%, rgb(76, 46, 206) 30.52%, rgb(112, 112, 178) 69.06%, rgb(11, 10, 10) 100%);
+    animation: anim1 10s linear infinite;
+}
+
+.car {
+    position: absolute;
+    top: -8px;
+    left: calc(100% -20px);
+}
+
+
+@keyframes anim1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+} */
+
+
+.wrapper{
+    height: 800px;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(195, 205, 214);
+}
+.road{
+    position: relative;
+    height: 20px;
+    width: 0px;
+    margin-left: 0;
+    background-color: #000;
+    background: linear-gradient(270deg, #F201FF 0%, #ffeb10 30.52%, #29d120 69.06%, rgba(63, 175, 255, 0) 100%);
+    animation: anim1 6s linear infinite;
+}
+.car{
+    position: absolute;
+    top: -8px;
+    left: calc(100% - 20px);
+}
+@keyframes anim1{
+	0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+
+/* .wrapper {
+    width: 1000px;
+    height: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left; /*грубо говоря, начинается слева*/
+    align-items: center;
+    background-color: lightgray;
+}
+
+.road {
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    margin-left: 0;
+    background-color: black;
+    background: linear-gradient(270deg, #F201FF 0%, #ffeb10 30.52%, #29d120 69.06%, rgba(63, 175, 255, 0) 100%);
+    animation: anim1 6s linear forwards;
+}
+
+.car {
+    position: absolute;
+    top: -8px;
+    left: calc(100% -20px);
+}
+
+@keyframes anim1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+} */
